@@ -643,7 +643,23 @@ a {
     border-radius: 0.5rem;
     margin-right: 1rem;
 }
+
 /* End Resume */
+
+/* Projects */
+.projects {
+    background-color: #f8f9fa;
+}
+
+.action {
+    color: white;
+}
+
+.btn-contact {
+    color: white;
+    border: 1px white solid;
+}
+/* End Projects */
 
 /* Card */
 .card {
@@ -660,7 +676,6 @@ a {
 
 .card .card-body {
     flex: 1 1 auto;
-    padding: 3rem;
 }
 
 .card-left {
@@ -736,6 +751,11 @@ a {
     margin-bottom: 0;
 }
 
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 .mb-0 {
     margin-bottom: 0;
 }
@@ -770,6 +790,26 @@ a {
 
 .p-5 {
     padding: 3rem;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.px-5 {
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .pb-5 {
@@ -821,3 +861,9 @@ a {
 /* Height */
 
 /* End Height */
+
+/* Overflow */
+.overflow-hidden {
+    overflow: hidden;
+}
+/* End Overflow */
