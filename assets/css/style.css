@@ -352,7 +352,9 @@ a {
 }
 
 @media (min-width: 1400px) {
-
+    .text-xxxl-start {
+        text-align: left !important;
+    }
 }
 /* End Text Align */
 
