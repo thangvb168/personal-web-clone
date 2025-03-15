@@ -1007,6 +1007,9 @@ a {
         font-size: 1.5rem !important;
     }
       
+    .text-xxl-start {
+        text-align: left;
+    }
 
     .text-large {
         font-size: 4rem;
@@ -1050,6 +1053,10 @@ a {
         width: 40%;
     }
 
+    .header .header_content .header_left .header_button {
+        justify-content: flex-start;
+    }
+
     .header .header_content .header_right {
         width: 60%;
         padding: 0 1.5rem;
@@ -1069,33 +1076,35 @@ a {
     }
 
     .header .header_content .header_right .header_profile .profile_background .dots-1,.dots-2,.dots-3,.dots-4 {
-        .header .header_content .header_right .header_profile .profile_background .dots-1 {
-            top: 4vw;
-            right: 0.75vw;
-            width: 1.5vw;
-        }
-        
-        .header .header_content .header_right .header_profile .profile_background .dots-2 {
-            top: 6.05vw;
-            right: -2vw;
-            width: 1.5vw;
-        }
 
-        .header .header_content .header_right .header_profile .profile_background .dots-3 {
-            bottom: 6.05vw;
-            left: 0.75vw;
-            width: 1.5vw;
-        }
-        
-        .header .header_content .header_right .header_profile .profile_background .dots-4 {
-            bottom: 4vw;
-            left: -2vw;
-            width: 1.5vw;
-        }
+    }
 
-        .about .about_content {
-            width: calc(100% * 2 / 3);
-        }
+    .header .header_content .header_right .header_profile .profile_background .dots-1 {
+        top: 4vw;
+        right: 0.75vw;
+        width: 1.5vw;
+    }
+    
+    .header .header_content .header_right .header_profile .profile_background .dots-2 {
+        top: 6.05vw;
+        right: -2vw;
+        width: 1.5vw;
+    }
+
+    .header .header_content .header_right .header_profile .profile_background .dots-3 {
+        bottom: 6.05vw;
+        left: 0.75vw;
+        width: 1.5vw;
+    }
+    
+    .header .header_content .header_right .header_profile .profile_background .dots-4 {
+        bottom: 4vw;
+        left: -2vw;
+        width: 1.5vw;
+    }
+
+    .about .about_content {
+        width: calc(100% * 2 / 3);
     }
 }
 /* End Responsize */
