@@ -9,6 +9,7 @@ Personal-Website-Clone/
 │   ├── css/
 │   │   ├── style.css
 │   ├── js/
+│   │   ├── main.js
 │   ├── images/
 │── index.html
 │── resume.html
