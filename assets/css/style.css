@@ -146,13 +146,16 @@ a {
 }
 
 .text-center {
-    text-align: center!important;
+    text-align: center;
 }
 
 .text-white {
     color: white;
 }
 
+.fst-italic {
+    font-style: italic;
+}
 /* Button */
 .btn {
     --btn-color: #212529;
@@ -805,6 +808,11 @@ a {
 .text-primary {
     --text-opacity: 1;
     color: rgba(var(--primary-rgb), var(--text-opacity));
+}
+
+.text-secondary {
+    --text-opacity: 1;
+    color: rgba(var(--secondary-rgb), var(--text-opacity));
 }
 /* End Text Color */
 
