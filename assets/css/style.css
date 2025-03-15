@@ -146,13 +146,16 @@ a {
 }
 
 .text-center {
-    text-align: center!important;
+    text-align: center;
 }
 
 .text-white {
     color: white;
 }
 
+.fst-italic {
+    font-style: italic;
+}
 /* Button */
 .btn {
     --btn-color: #212529;
@@ -220,6 +223,25 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav .collapse {
+    display: none;
+}
+
+.show {
+    display: block!important;
+}
+
+.nav .collapse .collapse_menu  {
+}
+
+.nav .collapse_menu li  {
+    padding: 0.5rem 0;
+}
+
+.nav .collapse_menu li a {
+    color: rgba(0, 0, 0, 0.55);
 }
 
 /* End Navigation */
@@ -805,6 +827,11 @@ a {
 .text-primary {
     --text-opacity: 1;
     color: rgba(var(--primary-rgb), var(--text-opacity));
+}
+
+.text-secondary {
+    --text-opacity: 1;
+    color: rgba(var(--secondary-rgb), var(--text-opacity));
 }
 /* End Text Color */
 
