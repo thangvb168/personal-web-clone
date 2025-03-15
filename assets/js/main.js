@@ -1,10 +1,14 @@
-let hamburger = document.getElementById('hamburger');
-let collapse = document.getElementById('collapse');
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const collapse = document.getElementById("collapse");
 
-if (hamburger) {
-    hamburger.addEventListener('click', function () {
-        collapse.classList.toggle('show');
+    hamburger.addEventListener("click", function () {
+        collapse.classList.toggle("show");
     });
-} else {
-    console.error("Không tìm thấy phần tử có id='hamberger'");
-}
+
+    document.addEventListener("click", function (event) {
+        if (!hamburger.contains(event.target) && !collapse.contains(event.target)) {
+            collapse.classList.remove("show");
+        }
+    });
+});
