@@ -225,6 +225,25 @@ a {
     align-items: center;
 }
 
+.nav .collapse {
+    display: none;
+}
+
+.show {
+    display: block!important;
+}
+
+.nav .collapse .collapse_menu  {
+}
+
+.nav .collapse_menu li  {
+    padding: 0.5rem 0;
+}
+
+.nav .collapse_menu li a {
+    color: rgba(0, 0, 0, 0.55);
+}
+
 /* End Navigation */
 
 /* Header */
